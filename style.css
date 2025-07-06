@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #f26b8a;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .option-box {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 16px 0;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .option-box.active {
+    border-color: #f26b8a;
+    background-color: #fff0f3;
+  }
+  
+  .option-box input {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tag {
+    background: #fda7b2;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 6px;
+    border-radius: 3px;
+  }
+  
+  .tag.red {
+    background: #fa5b5b;
+  }
+  
+  .tag.pink {
+    background: #fc86b7;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    display: block;
+    font-size: 12px;
+  }
+  
+  .ribbon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #fa5b5b;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+  }
+  
+  .options-hidden {
+    display: none;
+    margin-top: 12px;
+  }
+  
+  .option-box.active .options-hidden {
+    display: block;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+  
+  select {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    font-weight: bold;
+    color: #f26b8a;
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    background: #f26b8a;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .powered {
+    text-align: right;
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  
